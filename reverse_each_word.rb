@@ -1,6 +1,7 @@
 def reverse_each_word(word)
-  new_string = []
- word.each do |names|
-   new_string << words.reverse
+  new_array = word.split(" ")
+  new_string = ""
+ new_array.each do |names|
+   new_string += word.reverse
  end
 end
